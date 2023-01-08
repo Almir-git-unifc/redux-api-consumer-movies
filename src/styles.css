@@ -7,3 +7,8 @@
 .movie-item img {
     max-width: 100%;
 }
+
+.main-header{
+    text-alight: center;
+    padding: 50px;
+}
