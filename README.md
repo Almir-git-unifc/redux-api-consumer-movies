@@ -93,4 +93,10 @@ git add README.md
 git commit -m "test(init): v03.01.998 - commit test init v3.2-m3a4, send readme"
 
 
+git add .
+git commit -m "feat(nodejs): v03-02-000 m3a4 - ADD Button 'Adicionar aos Favoritos' but it still doesn't work"
+
+
+---------------------------------------------------------------------------------------------------------
+
 

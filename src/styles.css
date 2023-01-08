@@ -1,0 +1,9 @@
+.movie-item{
+    background: #eee;
+    padding: 10px 5px;
+    /** Antes era padding : 10px 30px; */
+}
+
+.movie-item img {
+    max-width: 100%;
+}
