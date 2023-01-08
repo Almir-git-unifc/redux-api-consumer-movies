@@ -100,3 +100,8 @@ git commit -m "feat(nodejs): v03-02-000 m3a4 - ADD Button 'Adicionar aos Favorit
 ---------------------------------------------------------------------------------------------------------
 
 
+# VERSÃO 3.2 -m3a5 - Button 'Ver detalhes', Detail Page, Button 'Adicionar aos Favoritos', add Menu in principal page and open Favorite Page
+
+git add README.md
+git commit -m "test(init): v03.02.001 - commit test init v3.2-m3a5, send readme"
+
