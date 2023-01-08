@@ -9,7 +9,7 @@ export const Favorites = () => {
           <h1>Meus filmes favoritos</h1>
           <ul>
           { 
-          	favorites.movies.map(movie => <li>{movie.title}</li>)
+          	favorites.movies.map(movie => <li key={movie.id}>{movie.title}</li>)
           }
           </ul>
        </section>

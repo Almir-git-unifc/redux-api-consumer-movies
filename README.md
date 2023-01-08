@@ -105,3 +105,13 @@ git commit -m "feat(nodejs): v03-02-000 m3a4 - ADD Button 'Adicionar aos Favorit
 git add README.md
 git commit -m "test(init): v03.02.001 - commit test init v3.2-m3a5, send readme"
 
+
+git add .
+git commit -m "feat(nodejs): React-js - v03-02-002 m3a5 - btns 'Ver Detalhes' and ADD_Favorites; Menu; Detail Page"
+
+
+![detailPage](https://github.com/Almir-git-unifc/Node-js_puc_api-filmcatOutData_d04-m3a4a5/blob/main/z-app-vers5.png)
+
+
+---------------------------------------------------------------------------------------------------------
+
