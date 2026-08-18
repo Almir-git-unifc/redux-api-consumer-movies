@@ -27,7 +27,7 @@ This is a standalone React application that uses The Movie Database (TMDB) API t
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 ## Table of Contents
-- [Introduction](#Intro)
+- [Introduction](#introduction)
 - [Feature](#Feature)
 - [Technologies](#Technologies)
 - [How To Use](#How-To-Use)
