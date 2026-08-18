@@ -10,8 +10,8 @@ This is a standalone React application that uses The Movie Database (TMDB) API t
      STATUS: 🔔 JavaScript 🚀 App: Finished ... 🎯  
 </h3>
 
-
-                                 ==================================================
+  
+                                   ==================================================
                       
 
 <!-- ![Movie catalog image](https://github.com/Almir-git-unifc/redux-api-consumer-movies/blob/main/z-app-vers5-banner-films.png)  -->
