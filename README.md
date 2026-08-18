@@ -14,7 +14,7 @@ This is a standalone React application that uses The Movie Database (TMDB) API t
                      ==================================================
                       
 
-![Movie catalog image](https://github.com/Almir-git-unifc/redux-api-consumer-movies/blob/main/docs/images/z-app-vers5-banner-films.png)
+![Movie catalog image](https://github.com/Almir-git-unifc/redux-api-consumer-movies/blob/main/z-app-vers5-banner-films.png)
 
 
 --------------------------------------------------------------------------------------
