@@ -64,7 +64,7 @@ v03-02-000 - ADD Button 'Adicionar aos Favoritos'
 v03-02-002 m3a5 - btns 'Ver Detalhes' and ADD_Favorites; Menu; Detail Page"
 
 
-![detailPage](https://github.com/Almir-git-unifc/Node-js_puc_api-filmcatOutData_d04-m3a4a5/blob/main/z-app-vers5.png)
+![detailPage](https://github.com/Almir-git-unifc/Node-js_puc_api-filmcatOutData_d04-m3a4a5/blob/main/z-app-vers5-banner-films.png)
 
 
 ---------------------------------------------------------------------------------------------------------
