@@ -1,117 +1,92 @@
-#  VERSÃO 0.0 - Teste de envio           
-
-git add README.md
-git commit -m "test(init): v00.00.001 - first commit with Test 0, send readme"
-
-git add -A
-git commit -m "test(init): v00.00.011 - update Test 1, send readme"
----------------------------------------------------------------------------------------------------------
+<h1>API for Studying Redux in the Movie App</h1>
 
 
-#  VERSÃO 1.0 - Show a title in component   
-
-git add -A
-
-git commit -m "feat(nodejs): v01-00-000 - React-JS - show a paragraph title in component"
-
-In thes version Index.js call app.js, that call applicationRoutes, that call component, that show a title in paragraph.
-
-
-![pg-test](https://github.com/Almir-git-unifc/Node-js_puc_api-filmcatOutData_d04-m3a4a5/blob/main/z-app-vers1_component.png)
+This is a standalone React application that uses The Movie Database (TMDB) API to fetch external movie data, utilizing React-Redux and Redux to manage global state.
 
 ---------------------------------------------------------------------------------------------------------
 
-
-#  VERSÃO 1.10 - Show a title in component   
-
-git add -A
-git commit -m "feat(nodejs): v01-10-000 - React-JS - show title-app e cards with title-card, img-fake, link-btn"
-
-
----------------------------------------------------------------------------------------------------------
+ 
+<h3 align="center"> 
+     STATUS: 🔔 JavaScript 🚀 App: Finished ... 🎯  
+</h3>
 
 
-#  VERSÃO 2.0 - Show a title in component   
+                     ==================================================
+                      
 
-git add .
-git commit -m "feat(nodejs): v02-00-000 - React-JS - Updated img and readme files from the app"
-
-In thes version show title-app e cards with title-card, img-fake, link-btn
+![Movie catalog image](https://github.com/Almir-git-unifc/todo-backend-mongodb-api-tests/blob/main/docs/images/z-app-vers5-banner-films.png)
 
 
-![pg-structure](https://github.com/Almir-git-unifc/Node-js_puc_api-filmcatOutData_d04-m3a4a5/blob/main/z-app-vers2.png)
+--------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+## Table of Contents
+- [Intro](#Intro)
+- [Feature](#Feature)
+- [Technologies](#Technologies)
+- [How To Use](#How-To-Use)
+- [Author](#Author)
+- [License](#License)
 
-
-# VERSÃO 3.0 - Descripion
-
-git add README.md
-git commit -m "test(init): v02.99.998 - commit test init v3, send readme"
-
-git add -A
-git commit -m "test(init): v02.99.999 - commit send all files for init v3"
-
-
-git add .
-git commit -m "feat(nodejs): v03-00-000 - React-JS - Cards with img and title captured from API"
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-git add .
-git commit -m "fix(nodejs): v03-00-001 - React-JS - fix readme to show image"
+# Introduction
+This is a standalone React application that consumes external data via The Movie Database (TMDB) API. The project demonstrates the integration of global state management using Redux and React-Redux within a modular architecture.
 
 
-![pg-films](https://github.com/Almir-git-unifc/Node-js_puc_api-filmcatOutData_d04-m3a4a5/blob/main/z-app-vers3.png)
-
----------------------------------------------------------------------------------------------------------
-
-
-# VERSÃO 3.1 - Button and Detail Page
-
-git add README.md
-git commit -m "test(init): v03.00.002 - commit test init v3-1, send readme"
+# Feature
+- Movie Catalog: Dynamic display of movies fetched from the TMDB API.
+- Movie Details: Detailed view featuring title, synopsis, language, popularity, and poster.
+- Global State Management: Use of `redux` and `react-redux` to manage application data.
+- Smart Navigation: Implementation of dynamic routes using `react-router-dom` and `useParams`.
+- Asynchronous Requests: Integration with `axios` for efficient API data fetching.
 
 
-git add .
-git commit -m "feat(nodejs): v03-01-000 - React-JS - img, title captured from API and button call Detail films Page"
-
-This app contains Image and title captured from external API, and button that calls movie details page from API.
-
-
-git add .
-git commit -m "fix(nodejs): v03-01-001 - React-JS - fix readme to show image"
+# Technologies
+- React: Main library for the user interface.
+- Redux and React-Redux: Global application state management.
+- Axios: HTTP client for consuming the TMDB API.
+- React Router Dom: Routing and navigation management.
+- TMDB API: External source for movie data.
 
 
-![detailPage](https://github.com/Almir-git-unifc/Node-js_puc_api-filmcatOutData_d04-m3a4a5/blob/main/z-app-vers4.png)
+# How To Use
 
----------------------------------------------------------------------------------------------------------
+Prerequisites
+- Node.js installed on your machine.
+- A valid API key obtained from [TMDB](https://www.themoviedb.org/).
 
+Installation and Execution
+```
+1. Clone the repository:
+```bash
+git clone <https://github.com/Almir-git-unifc/redux-api-consumer-movies.git>
+cd <redux-api-consumer-movies>
 
-# VERSÃO 3.2 - Button 'Ver detalhes', Detail Page, and Button 'Adicionar aos Favoritos'
+2. Install dependencies:
+npm install
 
-git add README.md
-git commit -m "test(init): v03.01.998 - commit test init v3.2-m3a4, send readme"
+3. Configure your API key:
+Create a '.env' file in the project root and add your key:
+REACT_APP_TMDB_API_KEY=your_key_here
 
+4. Start the application:
+npm start
 
-git add .
-git commit -m "feat(nodejs): v03-02-000 m3a4 - ADD Button 'Adicionar aos Favoritos' but it still doesn't work"
-
-
----------------------------------------------------------------------------------------------------------
-
-
-# VERSÃO 3.2 -m3a5 - Button 'Ver detalhes', Detail Page, Button 'Adicionar aos Favoritos', add Menu in principal page and open Favorite Page
-
-git add README.md
-git commit -m "test(init): v03.02.001 - commit test init v3.2-m3a5, send readme"
-
-
-git add .
-git commit -m "feat(nodejs): React-js - v03-02-002 m3a5 - btns 'Ver Detalhes' and ADD_Favorites; Menu; Detail Page"
-
-
-![detailPage](https://github.com/Almir-git-unifc/Node-js_puc_api-filmcatOutData_d04-m3a4a5/blob/main/z-app-vers5.png)
+The application will be running locally at http://localhost:3000.
+```
 
 
----------------------------------------------------------------------------------------------------------
 
+&nbsp;
+# Author <a name = "Author"></a>
+
+👤 **Almir**
+
+- Github: [@Almir-git-hub](https://github.com/Almir-git-unifc)
+
+&nbsp;
+# License <a name = "License"></a>
+
+MIT
